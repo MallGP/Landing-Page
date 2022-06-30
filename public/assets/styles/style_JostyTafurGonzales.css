@@ -1,0 +1,86 @@
+.title-2{
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.col{
+    margin: 70px;
+    height: 320px;
+    width: 280px;
+}
+.card-body{
+    padding: 20px 40px;
+    background-color: #e0e0e0;
+}
+.card-title{
+    font-weight: bold;
+}
+.card-text{
+    font-size: 13px;
+    color: #545454;
+}
+.card.h-100{
+    width: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.card.h-100:hover{
+    transform: scale(120%);
+}
+.image_app{
+    float: left;
+    height: 550px;
+    margin-left: 150px;
+    padding-top: 100px;
+    border: 50px;
+}
+.panel3{
+    background-color: #EFC82C;
+    height: 550px;
+}
+.panel3_text{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 700px;
+    padding-top: 100px;
+    margin-right: 250px;
+}
+.panel3_subtext{
+    font-size: 18px;
+    padding-top: 20px;
+    margin-left: 700px;
+    margin-right: 290px;
+}
+.symbolgps{
+    float: right;
+    clear: right;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.sgps1{
+    width: 130px;
+    height: 180px;
+    transform: rotate(52deg);
+}
+.sgps2{
+    width: 100px;
+    height: 140px;
+    transform: rotate(90deg);
+}
+.sgps3{
+    width: 75px;
+    height: 110px;
+    transform: rotate(110deg);
+}
+.sgps4{
+    width: 50px;
+    height: 70px;
+    transform: rotate(120deg);
+}

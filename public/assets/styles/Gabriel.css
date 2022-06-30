@@ -1,0 +1,165 @@
+*{
+  box-sizing: border-box;
+}
+
+.barnav{
+    position: fixed;
+    z-index: 1030;
+    width: 100%;
+}
+
+h1{font-size: 3em;}
+h2{font-size: 2.5em;}
+h3{font-size: 2.3em;}
+h4{font-size: 1.5em;}
+h5{ font-size: 1.3em;}
+
+p{
+  font-size: 1.25em;
+  padding: 5px;
+  margin: 0;
+}
+
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.descarga{
+  font-size: 1.5 em;
+  margin: 8px;
+  padding: 20px;
+  border-radius: 61.5px;
+  border: 4px solid rgb(255, 87, 51);
+  background-color: white;
+  color: rgb(255, 87, 51);
+}
+
+
+ .logo2{
+   margin-top: 50px;
+   width: 350px;
+   height: 350px;
+   border-radius: 50%;
+   float: right;
+   clear:right;
+   background-image: url("../images/logo2.jpeg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+
+#hero{
+  background-color: rgb(239, 200, 44);
+  padding: 120px 47px 30px 47px;
+}
+
+#section1{
+  padding: 100px 150px 40px 120px;
+  border-radius: 70px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)
+    )
+  ,url("../images/hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:white;
+}
+
+#section1 h1{
+  display: inline-block;
+  margin: 0;
+}
+
+#section1 h5{
+    font-weight: normal;
+}
+
+header{
+  background-color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.container ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display: flex;
+}
+
+ul li a{
+  padding: 0 16px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.logo1{
+  width:80px;
+  height: 80px;
+  background-image: url("../images/logo1.jpeg");
+  border-radius: 50%;
+  margin-right: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding-right: 90px;
+}
+
+a{
+  padding: 5px 12px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+}
+
+#hero button{
+  padding-left: 50;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 80px;
+  justify-content: space-between;
+  margin:0;
+}
+
+.android{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/android.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iphone{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/iphone.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
